@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import * as VueGoogleMaps from "vue2-google-maps"
+import * as VueGoogleMaps from 'vue2-google-maps'
+
 
 Vue.config.productionTip = false
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: "GOOGLE_API_KEY",
+    key: "GOOGLE_MAP_API_KEY",
     libraries: "places"
   }
 });
